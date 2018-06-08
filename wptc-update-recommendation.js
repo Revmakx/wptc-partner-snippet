@@ -31,12 +31,12 @@ jQuery(document).ready(function($) {
 		}
 	}, 150 );
 
-	custom_prefix_add_wptc_upset_buttons();
+	custom_prefix_add_wptc_upsell_buttons();
 });
 
 
 
-function custom_prefix_add_wptc_upset_buttons(){
+function custom_prefix_add_wptc_upsell_buttons(){
 	//Change your plugin/theme slug here.
 	var plugin_slug    = ''; // Eg wp-time-capsule
 	var theme_slug     = ''; // Eg twentyseventeen

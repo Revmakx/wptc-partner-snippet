@@ -1,6 +1,7 @@
 <?php
 
-function astra_add_wptc_upsell_buttons(){
+//Invoke this function on your plugin/theme main file.
+function custom_prefix_add_wptc_upsell_buttons(){
     include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
 
     if (is_plugin_active('wp-time-capsule/wp-time-capsule.php')) {
