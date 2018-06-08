@@ -2,7 +2,7 @@
 Code Snippet to add WPTC partner link to your WP Theme / Plugins
 
 
-<h2>How to integurate</h2>
+<h2>How to integrate</h2>
 
 1. Clone the repo into your plugin/theme.
 
