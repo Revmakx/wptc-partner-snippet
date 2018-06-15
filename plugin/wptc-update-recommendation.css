@@ -1,0 +1,11 @@
+.your-plugin-prefix-update-recommandation-btn-icon-fix{
+    margin-top: -3px;
+    margin-left: 0px;
+}
+
+.your-plugin-prefix-update-recommandation-link-icon-fix:after{
+    font-size: 14px !important;
+    margin-left: 0px;
+    font-family: dashicons;
+    content: "\f504";
+}
