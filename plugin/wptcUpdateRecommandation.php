@@ -1,6 +1,8 @@
 <?php
 
-//Invoke this function on your plugin main file.
+//add this line on your plugin main file.
+add_action('admin_enqueue_scripts', 'your_plugin_prefix_add_wptc_upsell_buttons');
+
 function your_plugin_prefix_add_wptc_upsell_buttons(){
     include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
 
