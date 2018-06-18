@@ -45,7 +45,6 @@ function your_theme_prefix_add_wptc_upsell_buttons(){
 	var current_path   = window.location.href;
 
 	if (current_path.toLowerCase().indexOf('update-core') !== -1) {
-		jQuery('#update-plugins-table .plugin-title p a[href*="' + plugin_slug + '"]').after(link);
 		jQuery('#update-themes-table .plugin-title p img[src*="' + theme_slug + '"]').parent('p').append(link);
 	} else if(current_path.toLowerCase().indexOf('themes.php') !== -1){
 		window.onload = function() {
